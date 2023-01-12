@@ -1,0 +1,183 @@
+body{
+    font-family: Montserrat,sans-serif;
+   
+}
+/* Title */
+#title{
+
+    background-color: #3F0071;
+    height:650px;
+}
+
+container Fluid
+
+.container-fluid{
+    padding: 3% 15%;
+}
+/* title heading */
+h1{
+    font-family: Moon Dance ;
+    color: #fff;
+    font-size: 3.5rem;
+    line-height:1.5 ;
+}
+/* H2 */
+h2{
+padding-top: 15px;
+    font-size: 2rem;
+}
+h3{
+    font-family: Montserrat-bold;
+font-size: 1.5rem;
+}
+/* navbar-brand */
+.navbar-brand{
+    font-family: Moon Dance;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* .navbar */
+
+.navbar{
+    padding:0 0  4.5rem;
+}
+
+/* .nav-item */
+
+.nav-item{
+padding: 0 18px;
+font-family: Monsterrat-light;
+}
+    /* Buttons */
+    .btn{
+        margin: 5% 3% 5% 0;
+    }
+    /* ---------------title------------ image------- */
+    .carimg{
+       width:  30%;
+       padding: 0 65px 55px 0;
+    transform: rotate(25deg);
+    margin:20px 0 0  20px ;
+    position: absolute;
+    right: 20%;
+    z-index: 100;
+    
+    
+
+    
+    }
+    /* features */
+#features{
+    background-color: #D09CFA;
+    padding: 7%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    
+   
+}
+.image{
+margin-bottom: 7px;
+color:#A555EC;
+}
+.image:hover{
+    color: #3F0071;
+}
+/* testimonials */
+#testimonials{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    background-color: #A555EC;
+    padding-top: 7% 15%;
+    
+}
+/* dog-imge */
+.testimonial-image{
+    width: 10%;
+ border-radius: 100%;
+ padding-bottom: 45px ;
+ 
+}
+/* #press */
+#press{ 
+
+    background-color:#D09CFA;
+    text-align: center;
+    padding-bottom: 3% ;
+}
+/* .brnd-image */
+.brnd-image
+{
+    width: 15%;
+margin: 20px 20px 50px;
+}
+
+/* card-btn */
+
+
+.card-btn{ 
+    size: 12px;
+    font-family: montserrat;
+    font-size: large;
+    color: #fff;
+    background-color: #A555EC ;
+    border-color: #A555EC;
+    border: 3px;
+    transition: 0.5s;
+}
+
+/* card-btn hover */
+
+.card-btn:hover{
+    /* font-family: Ubuntu; */
+    
+   background-color:  #8105D8;
+   
+} 
+#pricing{
+    padding: 100px;
+}
+.pricing-colo{
+    padding: 20px;
+    text-align: center;
+}
+.icom
+{   align-items: center;
+    text-align: center;
+    height:2%;
+    width: 1%;
+    margin: 5px;
+}
+#cta {padding-top:15px ;
+    background-color: #3F0071;
+    font-family: Montserrat;
+    text-align: center;
+}
+.white-section{
+    text-align: center;
+}
+#pricing{
+    background-color: #A555EC;
+}
+@media (max-width: 1028px){  #title {
+    text-align: center; 
+  }
+
+  .carimg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.card-header,
+.card-body
+{ border: none;
+        background-color: #D09CFA;
+}
+.card{
+    border-width: 0;
+}
