@@ -58,7 +58,7 @@ font-family: Monsterrat-light;
     .carimg{
        width:  30%;
        padding: 0 65px 55px 0;
-    transform: rotate(25deg);
+    transform: rotate(15deg);
     margin:20px 0 0  20px ;
     position: absolute;
     right: 20%;
